@@ -1,0 +1,87 @@
+{
+  "direct_phrases": [
+    "software developer",
+    "software engineer",
+    "software engineering",
+    "graduate developer",
+    "graduate programmer",
+    "web developer",
+    "full stack developer",
+    "backend developer",
+    "frontend developer"
+  ],
+  "tech_terms": [
+    "software", "developer", "engineer", "engineering", "programmer",
+    "full stack", "backend", "front end", "frontend", "web development",
+    "devops", "data engineer", "mobile developer", "ios developer",
+    "android developer", "computer science", "coding"
+  ],
+  "role_terms": [
+    "intern", "internship", "graduate", "junior", "entry level", "entry-level"
+  ],
+  "exclude_keywords": [
+    "senior",
+    "staff",
+    "principal engineer",
+    "director",
+    "vp of",
+    "head of engineering",
+    "internal audit",
+    "international"
+  ],
+  "locations": {
+    "remote_ok_include_remote": true,
+    "linkedin_query_locations": ["New Zealand", "Christchurch, New Zealand", "Auckland, New Zealand"]
+  },
+  "max_jobs_per_source": 40,
+  "max_age_days": 21,
+
+  "nz_only": true,
+  "nz_location_signals": [
+    "new zealand", "nz", "auckland", "wellington", "christchurch", "hamilton",
+    "dunedin", "tauranga", "napier", "hastings", "palmerston north", "nelson",
+    "rotorua", "queenstown", "invercargill", "whangarei", "gisborne",
+    "new plymouth", "wanaka", "timaru", "whanganui", "porirua", "aotearoa"
+  ],
+
+  "sjs_search_terms": [
+    "software", "software engineer", "software developer", "IT graduate",
+    "computer science", "web developer"
+  ],
+
+  "greenhouse_companies": [
+    "stripe", "airbnb", "coinbase", "figma", "asana", "gitlab",
+    "canva", "atlassian", "xero", "linktree", "vercel", "cloudflare"
+  ],
+
+  "adzuna": {
+    "enabled": false,
+    "app_id": "",
+    "app_key": "",
+    "country": "nz",
+    "note": "Free key: https://developer.adzuna.com/ — set enabled:true and fill app_id/app_key to activate."
+  },
+
+  "quick_links": [
+    {
+      "source": "Indeed",
+      "reason": "Blocks automated requests (403 bot challenge) — search manually.",
+      "url": "https://www.indeed.com/jobs?q=software+developer+OR+software+engineer+OR+internship+OR+graduate&l=New+Zealand"
+    },
+    {
+      "source": "Prosple",
+      "reason": "AWS WAF bot challenge blocks scraping — search manually.",
+      "url": "https://www.prosple.com/nz/search-jobs?q=software"
+    },
+    {
+      "source": "Seek NZ",
+      "reason": "Cloudflare bot challenge blocks scraping — search manually.",
+      "url": "https://www.seek.co.nz/software-engineer-jobs"
+    },
+    {
+      "source": "LinkedIn (advanced search)",
+      "reason": "Saved search with your full filters for anything the guest scrape misses.",
+      "url": "https://www.linkedin.com/jobs/search/?keywords=software%20engineer%20OR%20software%20developer%20OR%20graduate%20OR%20internship&location=New%20Zealand"
+    }
+  ]
+}

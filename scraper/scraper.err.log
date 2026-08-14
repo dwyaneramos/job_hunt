@@ -1,0 +1,158 @@
+[sjs] navigation failed for 'software': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software", waiting until "networkidle"
+
+[sjs] navigation failed for 'software engineer': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20engineer", waiting until "networkidle"
+
+[sjs] navigation failed for 'software developer': Page.goto: net::ERR_TIMED_OUT at https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20developer
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20developer", waiting until "networkidle"
+
+[sjs] navigation failed for 'IT graduate': Page.goto: Navigation to "https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate" is interrupted by another navigation to "chrome-error://chromewebdata/"
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate", waiting until "networkidle"
+
+[sjs] navigation failed for 'computer science': Page.goto: Navigation to "https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science" is interrupted by another navigation to "https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate"
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science", waiting until "networkidle"
+
+[sjs] navigation failed for 'web developer': Page.goto: Navigation to "https://www.sjs.co.nz/job-seeker/jobs?keywords=web%20developer" is interrupted by another navigation to "https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science"
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=web%20developer", waiting until "networkidle"
+
+[greenhouse:canva] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=15)
+[greenhouse:canva] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Read timed out. (read timeout=15)
+[linkedin] fetch failed for 'software engineer OR software developer' @ 'New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Read timed out. (read timeout=15)
+[linkedin] fetch failed for 'graduate software' @ 'Auckland, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Read timed out. (read timeout=15)
+[sjs] navigation failed for 'software engineer': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20engineer
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20engineer", waiting until "networkidle"
+
+[sjs] navigation failed for 'software developer': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20developer
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20developer", waiting until "networkidle"
+
+[sjs] navigation failed for 'IT graduate': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate", waiting until "networkidle"
+
+[sjs] navigation failed for 'computer science': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science", waiting until "networkidle"
+
+[sjs] navigation failed for 'web developer': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=web%20developer
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=web%20developer", waiting until "networkidle"
+
+[remoteok] fetch failed: ("Connection broken: ConnectionResetError(54, 'Connection reset by peer')", ConnectionResetError(54, 'Connection reset by peer'))
+[greenhouse:stripe] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/stripe/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:airbnb] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/airbnb/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:coinbase] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/coinbase/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:figma] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/figma/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:asana] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/asana/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:gitlab] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/gitlab/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:canva] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/canva/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:atlassian] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/atlassian/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:xero] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/xero/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:linktree] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/linktree/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:vercel] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/vercel/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[greenhouse:cloudflare] fetch failed: HTTPSConnectionPool(host='boards-api.greenhouse.io', port=443): Max retries exceeded with url: /v1/boards/cloudflare/jobs?content=true (Caused by NameResolutionError("HTTPSConnection(host='boards-api.greenhouse.io', port=443): Failed to resolve 'boards-api.greenhouse.io' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'software engineer OR software developer' @ 'New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software+engineer+OR+software+developer&location=New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'graduate software' @ 'New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=graduate+software&location=New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'software internship' @ 'New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software+internship&location=New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'software engineer OR software developer' @ 'Christchurch, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software+engineer+OR+software+developer&location=Christchurch%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'graduate software' @ 'Christchurch, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=graduate+software&location=Christchurch%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'software internship' @ 'Christchurch, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software+internship&location=Christchurch%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'software engineer OR software developer' @ 'Auckland, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software+engineer+OR+software+developer&location=Auckland%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'graduate software' @ 'Auckland, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=graduate+software&location=Auckland%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'software internship' @ 'Auckland, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software+internship&location=Auckland%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[sjs] navigation failed for 'software': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software", waiting until "networkidle"
+
+[sjs] navigation failed for 'software engineer': Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20engineer
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20engineer", waiting until "networkidle"
+
+[sjs] navigation failed for 'software developer': Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20developer
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20developer", waiting until "networkidle"
+
+[sjs] navigation failed for 'IT graduate': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate", waiting until "networkidle"
+
+[sjs] navigation failed for 'computer science': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science", waiting until "networkidle"
+
+[sjs] navigation failed for 'web developer': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=web%20developer
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=web%20developer", waiting until "networkidle"
+
+[linkedin] fetch failed for 'software engineer OR software developer' @ 'Christchurch, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Read timed out. (read timeout=15)
+[linkedin] fetch failed for 'graduate software' @ 'Christchurch, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=graduate+software&location=Christchurch%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'software internship' @ 'Christchurch, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software+internship&location=Christchurch%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'software engineer OR software developer' @ 'Auckland, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software+engineer+OR+software+developer&location=Auckland%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'graduate software' @ 'Auckland, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=graduate+software&location=Auckland%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'software internship' @ 'Auckland, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software+internship&location=Auckland%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[sjs] navigation failed for 'software': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=software
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software", waiting until "networkidle"
+
+[sjs] navigation failed for 'software engineer': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20engineer
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20engineer", waiting until "networkidle"
+
+[sjs] navigation failed for 'software developer': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20developer
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20developer", waiting until "networkidle"
+
+[sjs] navigation failed for 'IT graduate': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate", waiting until "networkidle"
+
+[sjs] navigation failed for 'computer science': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science", waiting until "networkidle"
+
+[sjs] navigation failed for 'web developer': Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sjs.co.nz/job-seeker/jobs?keywords=web%20developer
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=web%20developer", waiting until "networkidle"
+
+[sjs] navigation failed for 'IT graduate': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate", waiting until "networkidle"
+
+[sjs] navigation failed for 'software': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software", waiting until "networkidle"
+
+[sjs] navigation failed for 'software developer': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20developer", waiting until "networkidle"
+
+[sjs] navigation failed for 'software': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software", waiting until "networkidle"
+
+[sjs] navigation failed for 'computer science': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science", waiting until "networkidle"
+
+[sjs] navigation failed for 'computer science': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=computer%20science", waiting until "networkidle"
+
+[sjs] navigation failed for 'IT graduate': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=IT%20graduate", waiting until "networkidle"
+
+[linkedin] fetch failed for 'graduate software' @ 'Auckland, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=graduate+software&location=Auckland%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[linkedin] fetch failed for 'software internship' @ 'Auckland, New Zealand': HTTPSConnectionPool(host='www.linkedin.com', port=443): Max retries exceeded with url: /jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software+internship&location=Auckland%2C+New+Zealand&start=0 (Caused by NameResolutionError("HTTPSConnection(host='www.linkedin.com', port=443): Failed to resolve 'www.linkedin.com' ([Errno 8] nodename nor servname provided, or not known)"))
+[sjs] navigation failed for 'software developer': Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.sjs.co.nz/job-seeker/jobs?keywords=software%20developer", waiting until "networkidle"
+

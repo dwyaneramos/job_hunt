@@ -1,0 +1,79 @@
+{
+  "" : {
+    "diagnostics" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp-primary.dia",
+    "emit-module-dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp-primary-emit-module.dia",
+    "pch" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp-primary.swiftdeps"
+  },
+  "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/JobHuntApp/ContentView.swift" : {
+    "const-values" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/JobHuntApp/JobHuntApp.swift" : {
+    "const-values" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp.swiftconstvalues",
+    "dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp.d",
+    "diagnostics" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp.dia",
+    "index-unit-output-path" : "/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp.o",
+    "llvm-bc" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp.bc",
+    "object" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp.o",
+    "swift-dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp.swiftdeps",
+    "swiftmodule" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobHuntApp~partial.swiftmodule"
+  },
+  "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/JobHuntApp/JobStore.swift" : {
+    "const-values" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobStore.swiftconstvalues",
+    "dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobStore.d",
+    "diagnostics" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobStore.dia",
+    "index-unit-output-path" : "/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobStore.o",
+    "llvm-bc" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobStore.bc",
+    "object" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobStore.o",
+    "swift-dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobStore.swiftdeps",
+    "swiftmodule" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobStore~partial.swiftmodule"
+  },
+  "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/Shared/DismissJobIntent.swift" : {
+    "const-values" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissJobIntent.swiftconstvalues",
+    "dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissJobIntent.d",
+    "diagnostics" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissJobIntent.dia",
+    "index-unit-output-path" : "/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissJobIntent.o",
+    "llvm-bc" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissJobIntent.bc",
+    "object" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissJobIntent.o",
+    "swift-dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissJobIntent.swiftdeps",
+    "swiftmodule" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissJobIntent~partial.swiftmodule"
+  },
+  "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/Shared/DismissedStore.swift" : {
+    "const-values" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissedStore.swiftconstvalues",
+    "dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissedStore.d",
+    "diagnostics" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissedStore.dia",
+    "index-unit-output-path" : "/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissedStore.o",
+    "llvm-bc" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissedStore.bc",
+    "object" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissedStore.o",
+    "swift-dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissedStore.swiftdeps",
+    "swiftmodule" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/DismissedStore~partial.swiftmodule"
+  },
+  "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/Shared/Job.swift" : {
+    "const-values" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/Job.swiftconstvalues",
+    "dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/Job.d",
+    "diagnostics" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/Job.dia",
+    "index-unit-output-path" : "/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/Job.o",
+    "llvm-bc" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/Job.bc",
+    "object" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/Job.o",
+    "swift-dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/Job.swiftdeps",
+    "swiftmodule" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/Job~partial.swiftmodule"
+  },
+  "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/Shared/JobDataLoader.swift" : {
+    "const-values" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobDataLoader.swiftconstvalues",
+    "dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobDataLoader.d",
+    "diagnostics" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobDataLoader.dia",
+    "index-unit-output-path" : "/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobDataLoader.o",
+    "llvm-bc" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobDataLoader.bc",
+    "object" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobDataLoader.o",
+    "swift-dependencies" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobDataLoader.swiftdeps",
+    "swiftmodule" : "/Users/dwyaneramos/Code/job_hunt/JobHuntWidget/build/Build/Intermediates.noindex/JobHuntWidget.build/Debug/JobHuntApp.build/Objects-normal/arm64/JobDataLoader~partial.swiftmodule"
+  }
+}

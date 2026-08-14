@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'JobHuntApp' in project 'JobHuntWidget'
+➜ Explicit dependency on target 'JobHuntWidgetExtension' in project 'JobHuntWidget'
+Target 'JobHuntWidgetExtension' in project 'JobHuntWidget' (no dependencies)

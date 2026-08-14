@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C521AF3AD18BC4242A7B7F5 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168ECC5DC030B4F517622A8 /* Job.swift */; };
+		31D68CE327B0A0AC51403F1E /* DismissedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4A1CFFEBF7922745C0B89F /* DismissedStore.swift */; };
+		3FCFD2B1A130BAFD8DA806AB /* JobHuntWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05202F37BAEE81D6F64D051 /* JobHuntWidgetBundle.swift */; };
+		51B16138B239CD64C85DC364 /* DismissedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4A1CFFEBF7922745C0B89F /* DismissedStore.swift */; };
+		693C81FEE773C410A69F7890 /* JobHuntWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 070FE13125B51EA5BB926A3A /* JobHuntWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8295BE20EFAB3EDC3ADFC063 /* DismissJobIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAA4EDE6D963243A18D969 /* DismissJobIntent.swift */; };
+		8CB5990458EA697E1546F360 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168ECC5DC030B4F517622A8 /* Job.swift */; };
+		9198A5928953C52DBBF18C36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0A1E678E23082C65152EF /* ContentView.swift */; };
+		999FD3058C21D7335238126C /* JobDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C661A5454789C31CF44DA7 /* JobDataLoader.swift */; };
+		B25640027D9F4BFA3AFC2777 /* JobHuntApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E521B71172AFAA47D7A6D /* JobHuntApp.swift */; };
+		DB3D496DE86E1D28A0B5110C /* JobDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C661A5454789C31CF44DA7 /* JobDataLoader.swift */; };
+		E26AF6D69675C8D58EA116A0 /* JobHuntWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9819EC42F2055928FB0A14ED /* JobHuntWidget.swift */; };
+		EAD01DF1197AB712FC07A62E /* DismissJobIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAA4EDE6D963243A18D969 /* DismissJobIntent.swift */; };
+		F069338A9BDE44C49C8B746D /* JobStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8A3B9A18CE86934C09DA6 /* JobStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264FEA6F813016FF868E8EB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C990014DE59653B23E2EF36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AD74DD644690D43F6A2181E;
+			remoteInfo = JobHuntWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C884A99D3CE016728A37BDFB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				693C81FEE773C410A69F7890 /* JobHuntWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		070FE13125B51EA5BB926A3A /* JobHuntWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JobHuntWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4A1CFFEBF7922745C0B89F /* DismissedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissedStore.swift; sourceTree = "<group>"; };
+		22C661A5454789C31CF44DA7 /* JobDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDataLoader.swift; sourceTree = "<group>"; };
+		3EBAA4EDE6D963243A18D969 /* DismissJobIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissJobIntent.swift; sourceTree = "<group>"; };
+		4DF0A1E678E23082C65152EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BD03D7FCF812156B59A0D2B /* JobHuntApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JobHuntApp.entitlements; sourceTree = "<group>"; };
+		748E870DE53CC321FB644AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		842B8E358D3853CF7CFA7B87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9819EC42F2055928FB0A14ED /* JobHuntWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHuntWidget.swift; sourceTree = "<group>"; };
+		B72E521B71172AFAA47D7A6D /* JobHuntApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHuntApp.swift; sourceTree = "<group>"; };
+		C168ECC5DC030B4F517622A8 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		C7C401F8C19C24D19C65B0B5 /* JobHuntApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobHuntApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05202F37BAEE81D6F64D051 /* JobHuntWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHuntWidgetBundle.swift; sourceTree = "<group>"; };
+		FC49169DA189641B01E5A456 /* JobHuntWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JobHuntWidgetExtension.entitlements; sourceTree = "<group>"; };
+		FDA8A3B9A18CE86934C09DA6 /* JobStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		18972EDBF9DEDE65CEE095F3 = {
+			isa = PBXGroup;
+			children = (
+				8127118B19782DE7C3C755B2 /* JobHuntApp */,
+				9307D3D427DEA66B5E780D0A /* JobHuntWidgetExtension */,
+				1AED1D9AB6B7C2E3B6E62851 /* Shared */,
+				E16665665B4074E8A6E88BFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AED1D9AB6B7C2E3B6E62851 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1A4A1CFFEBF7922745C0B89F /* DismissedStore.swift */,
+				3EBAA4EDE6D963243A18D969 /* DismissJobIntent.swift */,
+				C168ECC5DC030B4F517622A8 /* Job.swift */,
+				22C661A5454789C31CF44DA7 /* JobDataLoader.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8127118B19782DE7C3C755B2 /* JobHuntApp */ = {
+			isa = PBXGroup;
+			children = (
+				4DF0A1E678E23082C65152EF /* ContentView.swift */,
+				748E870DE53CC321FB644AC9 /* Info.plist */,
+				5BD03D7FCF812156B59A0D2B /* JobHuntApp.entitlements */,
+				B72E521B71172AFAA47D7A6D /* JobHuntApp.swift */,
+				FDA8A3B9A18CE86934C09DA6 /* JobStore.swift */,
+			);
+			path = JobHuntApp;
+			sourceTree = "<group>";
+		};
+		9307D3D427DEA66B5E780D0A /* JobHuntWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				842B8E358D3853CF7CFA7B87 /* Info.plist */,
+				9819EC42F2055928FB0A14ED /* JobHuntWidget.swift */,
+				E05202F37BAEE81D6F64D051 /* JobHuntWidgetBundle.swift */,
+				FC49169DA189641B01E5A456 /* JobHuntWidgetExtension.entitlements */,
+			);
+			path = JobHuntWidgetExtension;
+			sourceTree = "<group>";
+		};
+		E16665665B4074E8A6E88BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7C401F8C19C24D19C65B0B5 /* JobHuntApp.app */,
+				070FE13125B51EA5BB926A3A /* JobHuntWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AD74DD644690D43F6A2181E /* JobHuntWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE08F42658FFCA3194949606 /* Build configuration list for PBXNativeTarget "JobHuntWidgetExtension" */;
+			buildPhases = (
+				A09D8AC95CBB8091B5DF4E0E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobHuntWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = JobHuntWidgetExtension;
+			productReference = 070FE13125B51EA5BB926A3A /* JobHuntWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		ECB729716E1D3B64C0947EAA /* JobHuntApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC75368724E2E11703EAEB2 /* Build configuration list for PBXNativeTarget "JobHuntApp" */;
+			buildPhases = (
+				1D9FD268A38600A7F85FEE83 /* Sources */,
+				C884A99D3CE016728A37BDFB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				772843E954B6701ECB99A4D7 /* PBXTargetDependency */,
+			);
+			name = JobHuntApp;
+			packageProductDependencies = (
+			);
+			productName = JobHuntApp;
+			productReference = C7C401F8C19C24D19C65B0B5 /* JobHuntApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C990014DE59653B23E2EF36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1AD74DD644690D43F6A2181E = {
+						DevelopmentTeam = JR892KH5RJ;
+						ProvisioningStyle = Automatic;
+					};
+					ECB729716E1D3B64C0947EAA = {
+						DevelopmentTeam = JR892KH5RJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2309F6A92417CBB7458372FD /* Build configuration list for PBXProject "JobHuntWidget" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 18972EDBF9DEDE65CEE095F3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E16665665B4074E8A6E88BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB729716E1D3B64C0947EAA /* JobHuntApp */,
+				1AD74DD644690D43F6A2181E /* JobHuntWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D9FD268A38600A7F85FEE83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9198A5928953C52DBBF18C36 /* ContentView.swift in Sources */,
+				8295BE20EFAB3EDC3ADFC063 /* DismissJobIntent.swift in Sources */,
+				31D68CE327B0A0AC51403F1E /* DismissedStore.swift in Sources */,
+				8CB5990458EA697E1546F360 /* Job.swift in Sources */,
+				999FD3058C21D7335238126C /* JobDataLoader.swift in Sources */,
+				B25640027D9F4BFA3AFC2777 /* JobHuntApp.swift in Sources */,
+				F069338A9BDE44C49C8B746D /* JobStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09D8AC95CBB8091B5DF4E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD01DF1197AB712FC07A62E /* DismissJobIntent.swift in Sources */,
+				51B16138B239CD64C85DC364 /* DismissedStore.swift in Sources */,
+				2C521AF3AD18BC4242A7B7F5 /* Job.swift in Sources */,
+				DB3D496DE86E1D28A0B5110C /* JobDataLoader.swift in Sources */,
+				E26AF6D69675C8D58EA116A0 /* JobHuntWidget.swift in Sources */,
+				3FCFD2B1A130BAFD8DA806AB /* JobHuntWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		772843E954B6701ECB99A4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AD74DD644690D43F6A2181E /* JobHuntWidgetExtension */;
+			targetProxy = 264FEA6F813016FF868E8EB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		043DDBBEFAA23DDD23052060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JobHuntApp/JobHuntApp.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = JobHuntApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dwyaneramos.jobhuntwidget.app;
+				PRODUCT_NAME = JobHunt;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CD7E621BA1DA26087B52DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = JobHuntWidgetExtension/JobHuntWidgetExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JobHuntWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dwyaneramos.jobhuntwidget.app.widget;
+				PRODUCT_NAME = JobHuntWidgetExtension;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		75871CE89E3DF2ADF2CE6FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = JobHuntWidgetExtension/JobHuntWidgetExtension.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JobHuntWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dwyaneramos.jobhuntwidget.app.widget;
+				PRODUCT_NAME = JobHuntWidgetExtension;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A672C5964A2533D24CE2C06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JobHuntApp/JobHuntApp.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = JobHuntApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dwyaneramos.jobhuntwidget.app;
+				PRODUCT_NAME = JobHunt;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DCB0FB3F4C525C1C473C54FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JR892KH5RJ;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E85765B4928625AB89C55195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JR892KH5RJ;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2309F6A92417CBB7458372FD /* Build configuration list for PBXProject "JobHuntWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB0FB3F4C525C1C473C54FD /* Debug */,
+				E85765B4928625AB89C55195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2EC75368724E2E11703EAEB2 /* Build configuration list for PBXNativeTarget "JobHuntApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A672C5964A2533D24CE2C06B /* Debug */,
+				043DDBBEFAA23DDD23052060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE08F42658FFCA3194949606 /* Build configuration list for PBXNativeTarget "JobHuntWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75871CE89E3DF2ADF2CE6FA9 /* Debug */,
+				4CD7E621BA1DA26087B52DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C990014DE59653B23E2EF36 /* Project object */;
+}
