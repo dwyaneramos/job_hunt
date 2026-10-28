@@ -3,6 +3,7 @@ import WidgetKit
 
 struct ContentView: View {
     @StateObject private var store = JobStore()
+    @StateObject private var keywords = KeywordStore()
     @State private var searchText = ""
 
     private var filteredJobs: [Job] {
@@ -18,6 +19,22 @@ struct ContentView: View {
     var body: some View {
         NavigationSplitView {
             List {
+                KeywordEditor(
+                    title: "Keywords I want",
+                    words: keywords.want,
+                    onAdd: keywords.addWant,
+                    onRemove: keywords.removeWant
+                )
+                KeywordEditor(
+                    title: "Keywords to skip",
+                    words: keywords.skip,
+                    onAdd: keywords.addSkip,
+                    onRemove: keywords.removeSkip
+                )
+                Text("Applied on the next Refresh Now")
+                    .font(.caption2)
+                    .foregroundStyle(.secondary)
+
                 Section("Quick search") {
                     Text("Blocked from scraping — search manually")
                         .font(.caption2)

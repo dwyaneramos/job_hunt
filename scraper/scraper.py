@@ -34,6 +34,7 @@ from bs4 import BeautifulSoup
 SCRAPER_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = SCRAPER_DIR / "config.json"
 OUTPUT_PATH = Path.home() / "Library/Application Support/JobHuntWidget/jobs.json"
+KEYWORDS_PATH = Path.home() / "Library/Application Support/JobHuntWidget/keywords.json"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -44,7 +45,17 @@ REQUEST_TIMEOUT = 15
 
 def load_config() -> dict:
     with open(CONFIG_PATH) as f:
-        return json.load(f)
+        cfg = json.load(f)
+    # Keywords edited in the app override the built-in lists.
+    try:
+        with open(KEYWORDS_PATH) as f:
+            user = json.load(f)
+        cfg["want_keywords"] = [k for k in user["want"] if k.strip()]
+        cfg["exclude_keywords"] = [k for k in user["skip"] if k.strip()]
+    except (OSError, ValueError, KeyError, TypeError) as e:
+        if not isinstance(e, FileNotFoundError):
+            print(f"[config] ignoring {KEYWORDS_PATH}: {e}", file=sys.stderr)
+    return cfg
 
 
 def job_id(source: str, url: str) -> str:
@@ -68,18 +79,41 @@ def notify(title: str, message: str) -> None:
 
 
 def _word_in(term: str, text_l: str) -> bool:
-    return re.search(r"\b" + re.escape(term) + r"\b", text_l) is not None
+    # Tolerate simple plurals so "events" also matches "event" and vice versa.
+    stem = term[:-1] if term.endswith("s") else term
+    return re.search(r"\b" + re.escape(stem) + r"s?\b", text_l) is not None
 
 
 def matches_keywords(text: str, cfg: dict) -> bool:
     text_l = text.lower()
-    if any(_word_in(bad, text_l) for bad in cfg["exclude_keywords"]):
+    if any(_word_in(bad.lower(), text_l) for bad in cfg["exclude_keywords"]):
         return False
+    if "want_keywords" in cfg:
+        return any(_word_in(k.lower(), text_l) for k in cfg["want_keywords"])
     if any(_word_in(phrase, text_l) for phrase in cfg["direct_phrases"]):
         return True
     tech_hit = any(_word_in(term, text_l) for term in cfg["tech_terms"])
     role_hit = any(_word_in(term, text_l) for term in cfg["role_terms"])
     return tech_hit and role_hit
+
+
+def search_terms(cfg: dict) -> list[str]:
+    """Free-text queries for sources with a keyword search endpoint.
+
+    These must follow the keywords set in the app, otherwise a custom
+    keyword (e.g. "events") is filtered for but never actually searched.
+    """
+    terms = [k.strip() for k in cfg.get("want_keywords", []) if k.strip()]
+    if not terms:
+        terms = cfg.get("default_want_keywords") or cfg.get("sjs_search_terms") or []
+    seen = set()
+    unique = []
+    for term in terms:
+        key = term.lower()
+        if key not in seen:
+            seen.add(key)
+            unique.append(term)
+    return unique[: cfg.get("max_search_terms", 6)]
 
 
 def make_job(source, title, company, location, url, posted=None, tags=None):
@@ -182,11 +216,11 @@ def fetch_linkedin(cfg: dict) -> list[dict]:
     jobs = []
     seen_urls = set()
     base = "https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search"
-    search_terms = ["software engineer OR software developer", "graduate software", "software internship"]
+    terms = search_terms(cfg)
     locations = cfg["locations"]["linkedin_query_locations"]
 
     for location in locations:
-        for term in search_terms:
+        for term in terms:
             params = {"keywords": term, "location": location, "start": 0}
             try:
                 r = requests.get(base, params=params, headers=HEADERS, timeout=REQUEST_TIMEOUT)
@@ -271,13 +305,13 @@ def fetch_sjs(cfg: dict) -> list[dict]:
     jobs = []
     seen_urls = set()
     base = "https://www.sjs.co.nz"
-    search_terms = cfg.get("sjs_search_terms", ["software", "graduate", "internship IT"])
+    terms = search_terms(cfg)
 
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch()
             page = browser.new_page(user_agent=HEADERS["User-Agent"])
-            for term in search_terms:
+            for term in terms:
                 url = f"{base}/job-seeker/jobs?keywords={urllib.parse.quote(term)}"
                 try:
                     page.goto(url, wait_until="networkidle", timeout=30000)
@@ -344,7 +378,7 @@ def fetch_adzuna(cfg: dict) -> list[dict]:
 
     country = az.get("country", "nz")
     url = f"https://api.adzuna.com/v1/api/jobs/{country}/search/1"
-    for what in ["software engineer", "software developer", "graduate software", "software internship"]:
+    for what in search_terms(cfg):
         params = {
             "app_id": az["app_id"],
             "app_key": az["app_key"],

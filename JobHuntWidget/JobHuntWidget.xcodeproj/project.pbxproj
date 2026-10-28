@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02614CDBB767A429E99ABB56 /* KeywordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DA0A645AF17E28A0E3C6DB /* KeywordStore.swift */; };
 		2C521AF3AD18BC4242A7B7F5 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168ECC5DC030B4F517622A8 /* Job.swift */; };
 		31D68CE327B0A0AC51403F1E /* DismissedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4A1CFFEBF7922745C0B89F /* DismissedStore.swift */; };
 		3FCFD2B1A130BAFD8DA806AB /* JobHuntWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05202F37BAEE81D6F64D051 /* JobHuntWidgetBundle.swift */; };
@@ -17,6 +18,7 @@
 		9198A5928953C52DBBF18C36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0A1E678E23082C65152EF /* ContentView.swift */; };
 		999FD3058C21D7335238126C /* JobDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C661A5454789C31CF44DA7 /* JobDataLoader.swift */; };
 		B25640027D9F4BFA3AFC2777 /* JobHuntApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72E521B71172AFAA47D7A6D /* JobHuntApp.swift */; };
+		B4B643E029553CCA31E66DCB /* KeywordEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202FF22E7773FE0DE6E56B4C /* KeywordEditor.swift */; };
 		DB3D496DE86E1D28A0B5110C /* JobDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C661A5454789C31CF44DA7 /* JobDataLoader.swift */; };
 		E26AF6D69675C8D58EA116A0 /* JobHuntWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9819EC42F2055928FB0A14ED /* JobHuntWidget.swift */; };
 		EAD01DF1197AB712FC07A62E /* DismissJobIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAA4EDE6D963243A18D969 /* DismissJobIntent.swift */; };
@@ -48,8 +50,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02DA0A645AF17E28A0E3C6DB /* KeywordStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordStore.swift; sourceTree = "<group>"; };
 		070FE13125B51EA5BB926A3A /* JobHuntWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JobHuntWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4A1CFFEBF7922745C0B89F /* DismissedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissedStore.swift; sourceTree = "<group>"; };
+		202FF22E7773FE0DE6E56B4C /* KeywordEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordEditor.swift; sourceTree = "<group>"; };
 		22C661A5454789C31CF44DA7 /* JobDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDataLoader.swift; sourceTree = "<group>"; };
 		3EBAA4EDE6D963243A18D969 /* DismissJobIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissJobIntent.swift; sourceTree = "<group>"; };
 		4DF0A1E678E23082C65152EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				5BD03D7FCF812156B59A0D2B /* JobHuntApp.entitlements */,
 				B72E521B71172AFAA47D7A6D /* JobHuntApp.swift */,
 				FDA8A3B9A18CE86934C09DA6 /* JobStore.swift */,
+				202FF22E7773FE0DE6E56B4C /* KeywordEditor.swift */,
+				02DA0A645AF17E28A0E3C6DB /* KeywordStore.swift */,
 			);
 			path = JobHuntApp;
 			sourceTree = "<group>";
@@ -209,6 +215,8 @@
 				999FD3058C21D7335238126C /* JobDataLoader.swift in Sources */,
 				B25640027D9F4BFA3AFC2777 /* JobHuntApp.swift in Sources */,
 				F069338A9BDE44C49C8B746D /* JobStore.swift in Sources */,
+				B4B643E029553CCA31E66DCB /* KeywordEditor.swift in Sources */,
+				02614CDBB767A429E99ABB56 /* KeywordStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

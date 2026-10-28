@@ -10,6 +10,13 @@
     "backend developer",
     "frontend developer"
   ],
+  "default_want_keywords": [
+    "software developer", "software engineer", "software engineering",
+    "graduate developer", "graduate programmer", "web developer",
+    "full stack developer", "backend developer", "frontend developer",
+    "software intern", "developer intern", "graduate engineer",
+    "junior developer", "junior software"
+  ],
   "tech_terms": [
     "software", "developer", "engineer", "engineering", "programmer",
     "full stack", "backend", "front end", "frontend", "web development",
@@ -34,6 +41,7 @@
     "linkedin_query_locations": ["New Zealand", "Christchurch, New Zealand", "Auckland, New Zealand"]
   },
   "max_jobs_per_source": 40,
+  "max_search_terms": 6,
   "max_age_days": 21,
 
   "nz_only": true,

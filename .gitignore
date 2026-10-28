@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Xcode build artifacts
+build/
+JobHuntWidget/build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Logs
+*.log
+
+# Tooling
+.superpowers/
