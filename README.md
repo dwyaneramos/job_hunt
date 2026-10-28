@@ -2,6 +2,9 @@
 
 A macOS desktop widget for listing software roles. This is completely slopped fyi
 
+<img width="364" height="353" alt="image" src="https://github.com/user-attachments/assets/491bccaa-fcd5-4ee2-a856-0706cf91032b" />
+
+
 ## Manual run / rebuild
 
 ```bash
